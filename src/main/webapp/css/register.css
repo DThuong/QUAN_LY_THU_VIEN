@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #0066FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-registration{
+  width: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+.form-registration h1{
+  text-decoration: underline;
+}
+.input-info{
+  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.input-info h3{
+  margin-top: 16px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+  color: #888;
+  font-size: 16px;
+}
+.input-personal-details{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.input-box{
+  margin-top: 12px;
+  margin-bottom: 6px;
+  width: 30%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.input-box label{
+  margin-bottom: 8px;
+  font-size: 12px;
+  font: Helvetica;;
+  font-weight: 200;
+}
+.input-box input{
+  padding: 6px;
+  border-radius: 10px;
+  border: 2px solid #666;
+}
+.account-details{
+  display: flex;
+  flex-direction: column;
+}
+.input-account-details{
+  
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn{
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #0066FF;
+  margin-top: 20px;
+  padding: 8px 40px;
+  cursor: pointer;
+}
+.btn a{
+  color: #fff;
+  text-decoration: none;
+}
+.btn:hover{
+  color: black;
+  background: #FCC23F;
+  text-decoration: underline;
+}
+.btn a:hover{
+  color: #000;
+  text-decoration: underline;
+}
+
